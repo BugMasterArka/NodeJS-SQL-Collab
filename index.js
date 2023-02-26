@@ -13,6 +13,9 @@ app.use('/api/read',require('./routes/read'))
 // updating columns in table
 app.use('/api/update',require('./routes/update'))
 
+// deleteing rows from the table
+app.use('/api/delete',require('./routes/delete'))
+
 app.listen(3000,()=>{
     console.log('Server running on port 3000')
     // sql.connectToSQL();
