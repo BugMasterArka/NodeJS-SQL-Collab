@@ -1,1 +1,1 @@
-SHOW TABLES;
+SELECT eid,ename,salary FROM EMPLOYEE;
